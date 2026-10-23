@@ -189,6 +189,8 @@ uv run horizon-wizard
 
 向导会询问你的兴趣（如"LLM 推理"、"嵌入式"、"web 安全"），自动推荐并生成 `data/config.json`，还可选让 AI 补充推荐小众源。若你想分享信息源，请前往 [horizon1123.top](https://horizon1123.top/)。CLI 选项见[交互式向导](docs/configuration.md#interactive-wizard)。
 
+符合条件的 ChatGPT 订阅用户可选择 `openai-chatgpt`，通过[官方登录授权](docs/chatgpt.md)使用订阅额度，无需 OpenAI API Key。
+
 **方式 B：手动配置**
 
 ```bash

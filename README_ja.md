@@ -179,6 +179,8 @@ uv run horizon-wizard
 
 ウィザードはあなたの興味（例: 「LLM inference」「嵌入式」「web security」）について質問し、`data/config.json`を自動生成します。CLIオプションは[対話式ウィザード](docs/configuration.md#interactive-wizard)を参照してください。
 
+対象のChatGPTサブスクリプションをお持ちの方は、`openai-chatgpt`を選び、[公式ログイン認証](docs/chatgpt.md)でプランの利用枠を使用できます。OpenAI APIキーは不要です。
+
 **オプションB: 手動設定**
 
 ```bash

@@ -178,6 +178,8 @@ uv run horizon-wizard
 
 The wizard asks about your interests (e.g. "LLM inference", "嵌入式", "web security") and auto-generates `data/config.json`. See [Interactive Wizard](docs/configuration.md#interactive-wizard) for CLI options.
 
+Eligible ChatGPT subscribers can choose `openai-chatgpt` to use their plan through [Sign in with ChatGPT](docs/chatgpt.md), without an OpenAI API key.
+
 **Option B: Manual configuration**
 
 ```bash
